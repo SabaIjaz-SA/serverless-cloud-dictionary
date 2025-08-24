@@ -15,13 +15,13 @@ const App = () => {
     // Construct the URL based on searchTerm
     const url = searchTerm
       ? `${apiUrl}/get-definition?term=${encodeURIComponent(searchTerm)}`
-      : `${apiUrl}/get-definition`; // Adjust for getting all terms if no searchTerm
+      : `${apiUrl}/get-definition`;
 
     axios
       .get(url)
       .then(response => {
         console.log('API Response:', response.data);
-        setTerms(response.data ? [response.data] : []);  // Assuming only one term returned
+        setTerms(response.data ? [response.data] : []);
         setFilteredTerms(response.data ? [response.data] : []);
       })
       .catch(error => {
