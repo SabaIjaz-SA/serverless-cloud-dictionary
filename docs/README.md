@@ -73,12 +73,10 @@ The application provides a simple **React-based frontend** hosted on **AWS Ampli
 
 You can find detailed explanations with screenshots in the following documents:
 
-- [Frontend Hosting on AWS Amplify](screenshots/frontend-setup.docx)  
-- [DynamoDB Setup](screenshots/database-setup.docx)  
-- [Lambda Function Development](screenshots/lambda-function-setup.docx)  
-- [API Gateway Configuration](screenshots/api-gateway-setup.docx)  
-- [End-to-End Testing](screenshots/integration-and-testing.docx)  
-
+- [Setup Frontend and Host It on AWS Amplify](screenshots/setup-frontend-and-host-it-on-aws-amplify.docx)  
+- [DynamoDB Setup](screenshots/configuration-of-dynamoDB-to-store-cloud-definitions.docx)  
+- [Lambda Function Development](screenshots/creation-of-lambda-function-for-fetching-terms.docx)  
+- [API Gateway Configuration](screenshots/api-gateway-integration-for-serverless-cloud-dictionary.docx)
 ---
 
 ## 🧠 Learning Outcome
